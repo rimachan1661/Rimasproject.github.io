@@ -1,0 +1,103 @@
+
+header{
+  border: 5px solid #D4AFB9;
+  border-box:box-sizing;
+}
+.CuerpoWeb{
+  
+  width:100%;
+  height:100%;
+  
+  /*display:flex;
+  flex-direction:column;
+  align-items:center;*/
+  
+  
+}
+
+.MenuPrincipal
+{
+  width:100%;
+  max-width:500px;
+  height: 50px;
+  display:flex;
+  border:5px solid #D4AFB9;
+  
+}
+
+.MenuPrincipal a
+{
+  text-decoration:none;
+  color:#000000;
+  
+}
+
+.MenuPrincipal div
+{
+  background:#D4AFB9;
+   text-align:center;
+  width:25%;
+  padding:2%;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+  header{
+    width:100%;
+    min-width: 500px;
+    height:30%;
+    min-height: 250px;
+  }
+  
+  .MenuPrincipal
+{
+  width:100%;
+  min-width:500px;
+  height: 50px;
+  flex-direction:column;
+  
+}
+  
+   .MenuPrincipal div
+  {
+    width:100%;
+    min-width:500px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+   header{
+    width:80%;
+    min-width: 500px;
+    height: 500px;
+    margin:0 auto;}
+}
+.MenuPrincipal
+{
+  width:80%;
+  max-width:500px;
+  height: 50px;
+  margin:0 auto;
+  
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {header{
+    width:85%;
+    max-width: 500px;
+    height: 250px;
+    margin:0 auto;
+  }}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {header{
+   width:100%;
+    max-width: 500px;
+    height: 250px;}}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {header{
+    width:100%;
+    max-width: 500px;
+    height: 250px;}}
