@@ -162,8 +162,7 @@ header{
     height: 250px;}
   
    .BlogCuerpo{
-     min-width:80%;
-  max-width:500px;
+     min-width:33%;
   margin:0 auto;
     
   }
